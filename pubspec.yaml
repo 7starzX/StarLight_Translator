@@ -1,0 +1,19 @@
+name: starlight
+description: A full AI-powered translator with camera and voice.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mlkit_translation: ^0.4.0
+  google_mlkit_text_recognition: ^0.4.0
+  camera: ^0.10.0
+  speech_to_text: ^5.4.0
+  flutter_tts: ^3.6.3
+
+flutter:
+  uses-material-design: true
